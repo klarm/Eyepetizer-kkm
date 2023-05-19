@@ -13,7 +13,7 @@ android {
     defaultConfig {
         applicationId "com.eyepetizer.android"
         minSdkVersion 21
-        targetSdkVersion 32
+        targetSdkVersion 30
         versionCode 7
         versionName "1.0.6"
         multiDexEnabled true
