@@ -16,6 +16,8 @@
         android:layout_height="1px"
         android:background="@color/gray" />
 
+<!--    主体区域，横向滚动的viewpage组件-->
+
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager"
         android:layout_width="match_parent"

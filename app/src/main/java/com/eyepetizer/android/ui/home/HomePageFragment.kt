@@ -54,6 +54,7 @@ class HomePageFragment : BaseViewPagerFragment() {
         add(TabEntity(GlobalUtil.getString(R.string.daily)))
     }
 
+//    三个子fragment
     override val createFragments: Array<Fragment> = arrayOf(DiscoveryFragment.newInstance(), CommendFragment.newInstance(), DailyFragment.newInstance())
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {

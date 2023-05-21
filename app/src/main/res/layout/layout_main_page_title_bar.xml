@@ -6,6 +6,8 @@
     android:background="@color/colorPrimary"
     android:gravity="center_vertical">
 
+<!--    前后两个icon，中间顶部tab区域-->
+
     <ImageView
         android:id="@+id/ivCalendar"
         android:layout_width="38.5dp"
@@ -15,6 +17,7 @@
         android:src="@drawable/ic_calendar_black_19dp"
         android:visibility="invisible" />
 
+<!--    顶部tab区域-->
     <com.flyco.tablayout.CommonTabLayout
         android:id="@+id/tabLayout"
         android:layout_width="wrap_content"
